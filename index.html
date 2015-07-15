@@ -21,7 +21,9 @@
 
             if (isTouchDevice) {
                 $('.video').addClass('hide');
+                $('.mobile-background').removeClass('hide');
             }
+
         });
 
         </script>
@@ -44,6 +46,8 @@
         <video autoplay class="video full-center" loop poster="assets/flame-loop.jpg">
             <source src="assets/flame-loop.mp4" type="video/mp4">
         </video>
+
+        <div class="mobile-background hide"></div>
 
     </body>
 
