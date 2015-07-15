@@ -13,6 +13,19 @@
         <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/apple-touch-icon-120x120-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/apple-touch-icon-152x152-precomposed.png">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+
+        $(document).ready(function() {
+            var isTouchDevice = 'ontouchstart' in document.documentElement;
+
+            if (isTouchDevice) {
+                $('.video').addClass('hide');
+            }
+        });
+
+        </script>
+
         <title>Given Names</title>
 
     </head>

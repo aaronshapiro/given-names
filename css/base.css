@@ -117,8 +117,4 @@ body {
 .social-link-facebook {
   background-image: url(../assets/icon-facebook.png); }
 
-@media (max-width: 800px) {
-  .video {
-    display: none; } }
-
 /*# sourceMappingURL=base.css.map */
