@@ -90,19 +90,6 @@ body {
   width: auto;
   z-index: -100; }
 
-.mobile-background {
-  background-image: url(../assets/flame-loop-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  bottom: 0;
-  display: none;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -10; }
-
 .social-links {
   bottom: 80px;
   text-align: center;
@@ -132,9 +119,6 @@ body {
 
 @media (max-width: 800px) {
   .video {
-    display: none; }
-
-  .mobile-background {
-    display: block; } }
+    display: none; } }
 
 /*# sourceMappingURL=base.css.map */
