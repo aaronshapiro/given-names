@@ -65,7 +65,7 @@ body {
   top: 50%; }
 
 .logo {
-  background-image: url(/assets/logo.png);
+  background-image: url(../assets/logo.png);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 162px;
@@ -75,7 +75,7 @@ body {
   z-index: 10; }
 
 .video {
-  background-image: url(/assets/flame-loop.jpg);
+  background-image: url(../assets/flame-loop.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   height: auto;
@@ -100,15 +100,15 @@ body {
     opacity: 0.5; }
 
 .social-link-email {
-  background-image: url(/assets/icon-email.png); }
+  background-image: url(../assets/icon-email.png); }
 
 .social-link-instagram {
-  background-image: url(/assets/icon-instagram.png); }
+  background-image: url(../assets/icon-instagram.png); }
 
 .social-link-twitter {
-  background-image: url(/assets/icon-twitter.png); }
+  background-image: url(../assets/icon-twitter.png); }
 
 .social-link-facebook {
-  background-image: url(/assets/icon-facebook.png); }
+  background-image: url(../assets/icon-facebook.png); }
 
 /*# sourceMappingURL=base.css.map */
