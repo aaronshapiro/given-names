@@ -64,6 +64,12 @@ body {
   transform: translateX(-50%) translateY(-62%);
   top: 50%; }
 
+.show {
+  display: block; }
+
+.hide {
+  display: none; }
+
 .logo {
   background-image: url(../assets/logo.png);
   background-repeat: no-repeat;
@@ -83,6 +89,19 @@ body {
   min-width: 100%;
   width: auto;
   z-index: -100; }
+
+.mobile-background {
+  background-image: url(../assets/flame-loop-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -10; }
 
 .social-links {
   bottom: 80px;
@@ -110,5 +129,12 @@ body {
 
 .social-link-facebook {
   background-image: url(../assets/icon-facebook.png); }
+
+@media (max-width: 800px) {
+  .video {
+    display: none; }
+
+  .mobile-background {
+    display: block; } }
 
 /*# sourceMappingURL=base.css.map */
